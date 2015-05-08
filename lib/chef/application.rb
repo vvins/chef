@@ -390,6 +390,11 @@ class Chef
     class << self
       def debug_stacktrace(e)
         message = "#{e.class}: #{e}\n#{e.backtrace.join("\n")}"
+        cause = e.cause
+        while cause != nil
+          message << "\n\n>>>> Caused by #{cause.class}: #{cause}\n#{cause.backtrace.join("\n")}"
+          cause = cause.cause
+        end
         chef_stacktrace_out = "Generated at #{Time.now.to_s}\n"
         chef_stacktrace_out += message
 
