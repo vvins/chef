@@ -353,6 +353,12 @@ class Chef
     # This can be removed when audit-mode is enabled by default.
     default :audit_mode, :disabled
 
+    # When set to true (and audit mode is :enabled or :audit_only), one or more
+    # failed controls will cause the client run to be marked as failed.
+    # When set to false, only converge or unexpected errors will cause the chef
+    # client run to be marked as failed.
+    default :audit_as_warning, false
+
     # Chef only needs ohai to run the hostname plugin for the most basic
     # functionality. If the rest of the ohai plugins are not needed (like in
     # most of our testing scenarios)
