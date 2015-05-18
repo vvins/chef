@@ -37,6 +37,10 @@ class Chef
       end
     end
 
+    def puts(msg)
+      "HEOOO"
+    end
+
     def self.deprecation(msg=nil, &block)
       if Chef::Config[:treat_deprecation_warnings_as_errors]
         error(msg, &block)

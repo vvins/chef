@@ -4,6 +4,10 @@
 #
 # Copyright (c) 2014 The Authors, All Rights Reserved.
 
+file "/tmp/whatevers2009" do
+  action :create
+end
+
 control_group "basic control group" do
   control "basic math" do
     it "should pass" do

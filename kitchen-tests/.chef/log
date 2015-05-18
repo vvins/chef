@@ -1,0 +1,191 @@
+# Logfile created on 2015-05-18 12:51:04 -0700 by logger.rb/44203
+[2015-05-18T12:51:04-07:00] WARN: Chef-client has been configured to audit after it converges. Audit mode is an experimental feature currently under development. API changes may occur. Use at your own risk.
+* To enable audit mode after converge, use command line option `--audit-mode enabled` or set `:audit_mode = :enabled` in your config file.
+* To disable audit mode, use command line option `--audit-mode disabled` or set `:audit_mode = :disabled` in your config file.
+* To only run audit mode, use command line option `--audit-mode audit-only` or set `:audit_mode = :audit_only` in your config file.
+Audit mode is disabled by default.
+[2015-05-18T12:51:04-07:00] INFO: Started chef-zero at chefzero://localhost:8889 with repository at /Users/clairemcquin/oc/chef/kitchen-tests
+  One version per cookbook
+
+[2015-05-18T12:51:04-07:00] INFO: Forking chef instance to converge...
+[2015-05-18T12:51:04-07:00] INFO: *** Chef 12.4.0.dev.0 ***
+[2015-05-18T12:51:04-07:00] INFO: Chef-client pid: 33105
+[2015-05-18T12:51:08-07:00] WARN: Run List override has been provided.
+[2015-05-18T12:51:08-07:00] WARN: Original Run List: []
+[2015-05-18T12:51:08-07:00] WARN: Overridden Run List: [recipe[audit_test::default]]
+[2015-05-18T12:51:08-07:00] INFO: Run List is [recipe[audit_test::default]]
+[2015-05-18T12:51:08-07:00] INFO: Run List expands to [audit_test::default]
+[2015-05-18T12:51:08-07:00] INFO: Starting Chef Run for local
+[2015-05-18T12:51:08-07:00] INFO: Running start handlers
+[2015-05-18T12:51:08-07:00] INFO: Start handlers complete.
+[2015-05-18T12:51:08-07:00] INFO: HTTP Request Returned 404 Not Found: Object not found: 
+[2015-05-18T12:51:08-07:00] INFO: Loading cookbooks [audit_test@0.1.0]
+[2015-05-18T12:51:08-07:00] INFO: Skipping removal of obsoleted cookbooks from the cache
+[2015-05-18T12:51:08-07:00] INFO: Storing updated cookbooks/audit_test/recipes/default.rb in the cache.
+[2015-05-18T12:51:08-07:00] INFO: Processing file[/tmp/whatevers2009] action create (audit_test::default line 7)
+[2015-05-18T12:51:08-07:00] WARN: Skipping final node save because override_runlist was given
+[2015-05-18T12:51:08-07:00] INFO: Starting audit phase
+[2015-05-18T12:51:08-07:00] INFO: 
+[2015-05-18T12:51:08-07:00] INFO: basic control group
+[2015-05-18T12:51:08-07:00] INFO:   basic math
+[2015-05-18T12:51:08-07:00] INFO:     should pass
+[2015-05-18T12:51:08-07:00] INFO: 
+[2015-05-18T12:51:08-07:00] INFO: control group without top level control
+[2015-05-18T12:51:08-07:00] INFO:   should pass
+[2015-05-18T12:51:08-07:00] INFO: Successfully executed all `control_group` blocks and contained examples
+[2015-05-18T12:51:08-07:00] INFO: 
+Finished in 0.00233 seconds (files took 0.21666 seconds to load)
+2 examples, 0 failures
+
+[2015-05-18T12:51:08-07:00] INFO: Chef Run complete in 0.277795 seconds
+[2015-05-18T12:51:08-07:00] INFO: Skipping removal of unused files from the cache
+[2015-05-18T12:51:08-07:00] INFO: Running report handlers
+[2015-05-18T12:51:08-07:00] INFO: Report handlers complete
+[2015-05-18T12:51:08-07:00] INFO: HTTP Request Returned 404 Not Found: Object not found: 
+[2015-05-18T12:51:46-07:00] WARN: Chef-client has been configured to audit after it converges. Audit mode is an experimental feature currently under development. API changes may occur. Use at your own risk.
+* To enable audit mode after converge, use command line option `--audit-mode enabled` or set `:audit_mode = :enabled` in your config file.
+* To disable audit mode, use command line option `--audit-mode disabled` or set `:audit_mode = :disabled` in your config file.
+* To only run audit mode, use command line option `--audit-mode audit-only` or set `:audit_mode = :audit_only` in your config file.
+Audit mode is disabled by default.
+[2015-05-18T12:51:46-07:00] INFO: Started chef-zero at chefzero://localhost:8889 with repository at /Users/clairemcquin/oc/chef/kitchen-tests
+  One version per cookbook
+
+[2015-05-18T12:51:46-07:00] INFO: Forking chef instance to converge...
+[2015-05-18T12:51:46-07:00] INFO: *** Chef 12.4.0.dev.0 ***
+[2015-05-18T12:51:46-07:00] INFO: Chef-client pid: 33204
+[2015-05-18T12:51:50-07:00] WARN: Run List override has been provided.
+[2015-05-18T12:51:50-07:00] WARN: Original Run List: []
+[2015-05-18T12:51:50-07:00] WARN: Overridden Run List: [recipe[audit_test::default]]
+[2015-05-18T12:51:50-07:00] INFO: Run List is [recipe[audit_test::default]]
+[2015-05-18T12:51:50-07:00] INFO: Run List expands to [audit_test::default]
+[2015-05-18T12:51:50-07:00] INFO: Starting Chef Run for local
+[2015-05-18T12:51:50-07:00] INFO: Running start handlers
+[2015-05-18T12:51:50-07:00] INFO: Start handlers complete.
+[2015-05-18T12:51:50-07:00] INFO: HTTP Request Returned 404 Not Found: Object not found: 
+[2015-05-18T12:51:50-07:00] INFO: Loading cookbooks [audit_test@0.1.0]
+[2015-05-18T12:51:50-07:00] INFO: Skipping removal of obsoleted cookbooks from the cache
+[2015-05-18T12:51:50-07:00] INFO: Processing file[/tmp/whatevers2009] action create (audit_test::default line 7)
+[2015-05-18T12:51:50-07:00] WARN: Skipping final node save because override_runlist was given
+[2015-05-18T12:51:50-07:00] INFO: Starting audit phase
+basic control group  basic math    should passcontrol group without top level control  should pass[2015-05-18T12:51:50-07:00] INFO: Successfully executed all `control_group` blocks and contained examples
+
+Finished in 0.00172 seconds (files took 0.22915 seconds to load)
+2 examples, 0 failures
+[2015-05-18T12:51:50-07:00] INFO: Chef Run complete in 0.289173 seconds
+[2015-05-18T12:51:50-07:00] INFO: Skipping removal of unused files from the cache
+[2015-05-18T12:51:50-07:00] INFO: Running report handlers
+[2015-05-18T12:51:50-07:00] INFO: Report handlers complete
+[2015-05-18T12:51:50-07:00] INFO: HTTP Request Returned 404 Not Found: Object not found: 
+[2015-05-18T12:52:27-07:00] WARN: Chef-client has been configured to audit after it converges. Audit mode is an experimental feature currently under development. API changes may occur. Use at your own risk.
+* To enable audit mode after converge, use command line option `--audit-mode enabled` or set `:audit_mode = :enabled` in your config file.
+* To disable audit mode, use command line option `--audit-mode disabled` or set `:audit_mode = :disabled` in your config file.
+* To only run audit mode, use command line option `--audit-mode audit-only` or set `:audit_mode = :audit_only` in your config file.
+Audit mode is disabled by default.
+[2015-05-18T12:52:27-07:00] INFO: Started chef-zero at chefzero://localhost:8889 with repository at /Users/clairemcquin/oc/chef/kitchen-tests
+  One version per cookbook
+
+[2015-05-18T12:52:27-07:00] INFO: Forking chef instance to converge...
+[2015-05-18T12:52:27-07:00] INFO: *** Chef 12.4.0.dev.0 ***
+[2015-05-18T12:52:27-07:00] INFO: Chef-client pid: 33303
+[2015-05-18T12:52:31-07:00] WARN: Run List override has been provided.
+[2015-05-18T12:52:31-07:00] WARN: Original Run List: []
+[2015-05-18T12:52:31-07:00] WARN: Overridden Run List: [recipe[audit_test::default]]
+[2015-05-18T12:52:31-07:00] INFO: Run List is [recipe[audit_test::default]]
+[2015-05-18T12:52:31-07:00] INFO: Run List expands to [audit_test::default]
+[2015-05-18T12:52:31-07:00] INFO: Starting Chef Run for local
+[2015-05-18T12:52:31-07:00] INFO: Running start handlers
+[2015-05-18T12:52:31-07:00] INFO: Start handlers complete.
+[2015-05-18T12:52:31-07:00] INFO: HTTP Request Returned 404 Not Found: Object not found: 
+[2015-05-18T12:52:31-07:00] INFO: Loading cookbooks [audit_test@0.1.0]
+[2015-05-18T12:52:31-07:00] INFO: Skipping removal of obsoleted cookbooks from the cache
+[2015-05-18T12:52:31-07:00] INFO: Processing file[/tmp/whatevers2009] action create (audit_test::default line 7)
+[2015-05-18T12:52:31-07:00] WARN: Skipping final node save because override_runlist was given
+[2015-05-18T12:52:31-07:00] INFO: Starting audit phase
+basic control group  basic math    should pass[2015-05-18T12:52:32-07:00] INFO: Successfully executed all `control_group` blocks and contained examples
+[2015-05-18T12:52:32-07:00] ERROR: Audit phase failed with error message: undefined method `info' for "\nbasic control group  basic math    should pass":String
+[2015-05-18T12:52:32-07:00] ERROR: undefined method `debug' for "\nbasic control group  basic math    should pass":String
+[2015-05-18T12:52:32-07:00] FATAL: Chef::Exceptions::ChildConvergeError: Chef run process exited unsuccessfully (exit code 1)
+[2015-05-18T12:53:04-07:00] WARN: Chef-client has been configured to audit after it converges. Audit mode is an experimental feature currently under development. API changes may occur. Use at your own risk.
+* To enable audit mode after converge, use command line option `--audit-mode enabled` or set `:audit_mode = :enabled` in your config file.
+* To disable audit mode, use command line option `--audit-mode disabled` or set `:audit_mode = :disabled` in your config file.
+* To only run audit mode, use command line option `--audit-mode audit-only` or set `:audit_mode = :audit_only` in your config file.
+Audit mode is disabled by default.
+[2015-05-18T12:53:04-07:00] INFO: Started chef-zero at chefzero://localhost:8889 with repository at /Users/clairemcquin/oc/chef/kitchen-tests
+  One version per cookbook
+
+[2015-05-18T12:53:04-07:00] INFO: Forking chef instance to converge...
+[2015-05-18T12:53:04-07:00] INFO: *** Chef 12.4.0.dev.0 ***
+[2015-05-18T12:53:04-07:00] INFO: Chef-client pid: 33409
+[2015-05-18T12:53:08-07:00] WARN: Run List override has been provided.
+[2015-05-18T12:53:08-07:00] WARN: Original Run List: []
+[2015-05-18T12:53:08-07:00] WARN: Overridden Run List: [recipe[audit_test::default]]
+[2015-05-18T12:53:08-07:00] INFO: Run List is [recipe[audit_test::default]]
+[2015-05-18T12:53:08-07:00] INFO: Run List expands to [audit_test::default]
+[2015-05-18T12:53:08-07:00] INFO: Starting Chef Run for local
+[2015-05-18T12:53:08-07:00] INFO: Running start handlers
+[2015-05-18T12:53:08-07:00] INFO: Start handlers complete.
+[2015-05-18T12:53:08-07:00] INFO: HTTP Request Returned 404 Not Found: Object not found: 
+[2015-05-18T12:53:08-07:00] INFO: Loading cookbooks [audit_test@0.1.0]
+[2015-05-18T12:53:08-07:00] INFO: Skipping removal of obsoleted cookbooks from the cache
+[2015-05-18T12:53:08-07:00] INFO: Processing file[/tmp/whatevers2009] action create (audit_test::default line 7)
+[2015-05-18T12:53:08-07:00] WARN: Skipping final node save because override_runlist was given
+[2015-05-18T12:53:08-07:00] INFO: Starting audit phase
+
+basic control group
+  basic math
+    should pass
+
+control group without top level control
+  should pass
+[2015-05-18T12:53:08-07:00] INFO: Successfully executed all `control_group` blocks and contained examples
+
+Finished in 0.00182 seconds (files took 0.2171 seconds to load)
+2 examples, 0 failures
+
+[2015-05-18T12:53:08-07:00] INFO: Chef Run complete in 0.275889 seconds
+[2015-05-18T12:53:08-07:00] INFO: Skipping removal of unused files from the cache
+[2015-05-18T12:53:08-07:00] INFO: Running report handlers
+[2015-05-18T12:53:08-07:00] INFO: Report handlers complete
+[2015-05-18T12:53:08-07:00] INFO: HTTP Request Returned 404 Not Found: Object not found: 
+[2015-05-18T12:54:12-07:00] WARN: Chef-client has been configured to audit after it converges. Audit mode is an experimental feature currently under development. API changes may occur. Use at your own risk.
+* To enable audit mode after converge, use command line option `--audit-mode enabled` or set `:audit_mode = :enabled` in your config file.
+* To disable audit mode, use command line option `--audit-mode disabled` or set `:audit_mode = :disabled` in your config file.
+* To only run audit mode, use command line option `--audit-mode audit-only` or set `:audit_mode = :audit_only` in your config file.
+Audit mode is disabled by default.
+[2015-05-18T12:54:12-07:00] INFO: Started chef-zero at chefzero://localhost:8889 with repository at /Users/clairemcquin/oc/chef/kitchen-tests
+  One version per cookbook
+
+[2015-05-18T12:54:12-07:00] INFO: Forking chef instance to converge...
+[2015-05-18T12:54:12-07:00] INFO: *** Chef 12.4.0.dev.0 ***
+[2015-05-18T12:54:12-07:00] INFO: Chef-client pid: 33501
+[2015-05-18T12:54:16-07:00] WARN: Run List override has been provided.
+[2015-05-18T12:54:16-07:00] WARN: Original Run List: []
+[2015-05-18T12:54:16-07:00] WARN: Overridden Run List: [recipe[audit_test::default]]
+[2015-05-18T12:54:16-07:00] INFO: Run List is [recipe[audit_test::default]]
+[2015-05-18T12:54:16-07:00] INFO: Run List expands to [audit_test::default]
+[2015-05-18T12:54:16-07:00] INFO: Starting Chef Run for local
+[2015-05-18T12:54:16-07:00] INFO: Running start handlers
+[2015-05-18T12:54:16-07:00] INFO: Start handlers complete.
+[2015-05-18T12:54:16-07:00] INFO: HTTP Request Returned 404 Not Found: Object not found: 
+[2015-05-18T12:54:16-07:00] INFO: Loading cookbooks [audit_test@0.1.0]
+[2015-05-18T12:54:16-07:00] INFO: Skipping removal of obsoleted cookbooks from the cache
+[2015-05-18T12:54:16-07:00] INFO: Processing file[/tmp/whatevers2009] action create (audit_test::default line 7)
+[2015-05-18T12:54:16-07:00] WARN: Skipping final node save because override_runlist was given
+[2015-05-18T12:54:16-07:00] INFO: Starting audit phase
+
+basic control group
+  basic math
+    should pass
+
+control group without top level control
+  should pass
+[2015-05-18T12:54:16-07:00] INFO: Successfully executed all `control_group` blocks and contained examples
+
+Finished in 0.00169 seconds (files took 0.21552 seconds to load)
+2 examples, 0 failures
+
+[2015-05-18T12:54:16-07:00] INFO: Chef Run complete in 0.272192 seconds
+[2015-05-18T12:54:16-07:00] INFO: Skipping removal of unused files from the cache
+[2015-05-18T12:54:16-07:00] INFO: Running report handlers
+[2015-05-18T12:54:16-07:00] INFO: Report handlers complete
+[2015-05-18T12:54:16-07:00] INFO: HTTP Request Returned 404 Not Found: Object not found: 
